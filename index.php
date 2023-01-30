@@ -46,7 +46,7 @@
 
                     <!-- textarea: urls -->
                     <div class="mb-3">
-                        <label for="input-urls" class="form-label">Copy-Paste or type each web address onto a separate line. Blank lines will be ignored.</label>
+                        <label for="input-urls" class="form-label">Copy-Paste or type each web address onto a separate line. Blank lines and extra whitespace will be ignored.</label>
                         <textarea class="form-control" id="input-urls" rows="12"></textarea>
                         <!--<div id="help-input-urls" class="form-text text-white">*Your browser will try to block this the first time you use this form.</div>-->
                     </div>
