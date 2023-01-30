@@ -31,3 +31,4 @@
   - Be able to save options along with group
 - Append to URL entries
   - UI for managing URL entries
+- Add UI for hints/explanations
