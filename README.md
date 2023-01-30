@@ -40,3 +40,6 @@
     - Click and drag
 - Add UI for hints/explanations
 - Be able to save your own default options
+
+## R&D
+- Get all URLS of other currently open tabs
