@@ -39,3 +39,4 @@
     - Up and down buttons
     - Click and drag
 - Add UI for hints/explanations
+- Be able to save your own default options
