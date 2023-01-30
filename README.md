@@ -12,6 +12,7 @@
     - Number input field
     - Slider
   - Dismissable warning for low delay values
+    - Also a button to automatically fix low delay values
 - Clear entries
   
 ## To Do
