@@ -27,3 +27,6 @@
   - Open all URLs that passed test
   - Open individual URLs that passed test
 - Add/Remove URLs in local storage
+  - UI for managing data in local storage
+- Append to URL entries
+  - UI for managing URL entries
