@@ -29,7 +29,9 @@
 - Add/Remove URL groups in local storage
   - UI for managing data in local storage
   - Be able to save options along with group
-- Prepend or append to URL entries
+- Additional paste actions for URL entries
+  - Prepend
+  - Append
 - Advanced UI for managing URL entries
   - CRUD
   - Rearrange with:
