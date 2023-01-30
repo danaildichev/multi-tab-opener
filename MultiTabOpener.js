@@ -25,6 +25,9 @@ class MultiTabOpener
         // ------------------------------
         // assign form actions to buttons
 
+        // paste contents of clipboard into URL entry textarea
+        this.elements.buttons.paste.click(() => this.pasteFromClipboard());
+
         // clear URLs from textarea
         this.elements.buttons.clear.click(() => this.clearURLs());
 
@@ -54,6 +57,22 @@ class MultiTabOpener
         // ----------------------------------
     }
     // end fn: initialize
+
+
+    /**
+     * fn: pasteFromClipboard()
+     *
+     * */
+    async pasteFromClipboard()
+    {
+        if (!navigator.clipboard) { alert("Your browser is blocking this.") }
+        else
+        {
+            let text = await navigator.clipboard.readText();
+            this.elements.inputs.urls.val(text);
+        }
+    }
+    // end fn: pasteFromClipboard()
 
 
     /**
