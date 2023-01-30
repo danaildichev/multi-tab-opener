@@ -21,7 +21,7 @@
   
 ## To Do
 - Test Bed
-  - Make a request to each entry for reachability
+  - Send an HTTP request to each URL entry to determine reachability
   - Display pass/fail test progress as a loading bar or some other UI
   - Display results of tests
   - Open all URLs that passed test
