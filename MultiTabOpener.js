@@ -121,7 +121,7 @@ class MultiTabOpener
         let entries = this.elements.inputs.urls.val().split("\n");
 
         // remove any blank lines
-        for (const e of entries) { if(e !== "") { urls.push(e); } }
+        for (const e of entries) { if(e !== "") { urls.push(e.trim()); } }
 
         // prepend protocol
         let prepend = this.elements.inputs.prepend.val();
