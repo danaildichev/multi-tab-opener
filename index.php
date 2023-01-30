@@ -87,7 +87,7 @@
 
                 <!-- overwrite -->
                 <div id="help-input-overwrite" class="form-text text-white d-block">
-                    <label for="input-delay" class="form-label">Prepend entries with:</label>
+                    <label for="input-delay" class="form-label">Prepend entries with://</label>
                 </div>
                 <div class="input-group mb-3">
                     <label class="input-group-text" for="input-overwrite">Protocol</label>
