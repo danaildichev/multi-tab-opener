@@ -4,8 +4,6 @@
 - Copy/Paste or type entries into a text area
   - Manually
   - Or with Paste button
-  - Removes blank lines from entries
-  - Strips whitespace around each entry
 - Open multiple tabs with the press of button
   - Open in reverse order
   - Replace the multi-tab-opener itself with the first entry
@@ -18,6 +16,9 @@
   - Dismissable warning for low delay values
     - Also a button to automatically fix low delay values
 - Clear entries
+- At run time
+  - Ignores blank lines in URL entries
+  - Strips whitespace from URL entries
   
 ## To Do
 - Test Bed
