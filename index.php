@@ -124,16 +124,22 @@
                 <div class="mt-4 text-center">
                     <div class="btn-group" role="group" aria-label="Form action">
 
+                        <!-- btn: paste from clipboard -->
+                        <button id="btn-paste" type="button" class="btn btn-dark">
+                            <i class="fa-solid fa-clipboard me-2"></i>
+                            Paste
+                        </button>
+
                         <!-- btn: test -->
                         <button id="btn-testURLs" type="button" class="btn btn-primary d-none"
                                 data-bs-toggle="collapse" data-bs-target="#testBed"
                                 aria-expanded="false" aria-controls="testBed">
-                            <i class="fa-solid fa-file-lines me-2"></i>
+                            <i class="fa-solid fa-circle-down me-2"></i>
                             Test
                         </button>
 
                         <!-- btn: open -->
-                        <button id="btn-openTabs" type="button" class="btn btn-success rounded-start">
+                        <button id="btn-openTabs" type="button" class="btn btn-success">
                             <i class="fa-solid fa-up-right-from-square me-2"></i>
                             Open
                         </button>
@@ -215,6 +221,7 @@
 
             "buttons":
             {
+                "paste": $("#btn-paste"),
                 "test": $("#btn-testURLs"),
                 "open": $("#btn-openTabs"),
                 "clear": $("#btn-clearURLs"),
