@@ -29,6 +29,10 @@
 - Add/Remove URL groups in local storage
   - UI for managing data in local storage
   - Be able to save options along with group
-- Append to URL entries
-  - UI for managing URL entries
+- Prepend or append to URL entries
+- Advanced UI for managing URL entries
+  - CRUD
+  - Rearrange with:
+    - Up and down buttons
+    - Click and drag
 - Add UI for hints/explanations
