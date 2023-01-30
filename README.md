@@ -5,6 +5,7 @@
   - Manually
   - Or with Paste button
   - Removes blank lines from entries
+  - Strips whitespace around each entry
 - Open multiple tabs with the press of button
   - Open in reverse order
   - Replace the multi-tab-opener itself with the first entry
