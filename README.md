@@ -2,6 +2,8 @@
 
 ## Features
 - Copy/Paste or type entries into a text area
+  - Manually
+  - Or with Paste button
 - Open multiple tabs with the press of button
   - Open in reverse order
   - Replace the multi-tab-opener itself with the first entry
