@@ -25,3 +25,4 @@
   - Display results of tests
   - Open all URLs that passed test
   - Open individual URLs that passed test
+- Add/Remove URLs in local storage
