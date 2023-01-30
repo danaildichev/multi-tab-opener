@@ -26,7 +26,8 @@
   - Display results of tests
   - Open all URLs that passed test
   - Open individual URLs that passed test
-- Add/Remove URLs in local storage
+- Add/Remove URL groups in local storage
   - UI for managing data in local storage
+  - Be able to save options along with group
 - Append to URL entries
   - UI for managing URL entries
