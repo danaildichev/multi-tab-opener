@@ -69,7 +69,7 @@
                     <div class="input-group-text">
                         <input type="checkbox" id="check-delay" class="form-check-input mt-0" aria-label="Checkbox for delay" checked>
                     </div>
-                    <input type="number" id="input-delay" class="form-control" value="2000" aria-label="Text input with checkbox for delay">
+                    <input type="number" id="input-delay" class="form-control rounded-end" value="2000" aria-label="Text input with checkbox for delay">
 
                     <input type="range" class="form-range" min="1" max="10000" id="slider-delay" value="2000">
 
