@@ -21,6 +21,8 @@
   - Strips whitespace from URL entries
   
 ## To Do
+- Open in batches
+  - Be able to open/close a particular batch from the MTO
 - Test Bed
   - Send an HTTP request to each URL entry to determine reachability
   - Display pass/fail test progress as a loading bar or some other UI
