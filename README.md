@@ -42,6 +42,9 @@
     - Click and drag
 - Add UI for hints/explanations
 - Be able to save your own default options
+- Be able to import from file
+  - txt
+  - json
 
 ## R&D
 - Get all URLS of other currently open tabs
