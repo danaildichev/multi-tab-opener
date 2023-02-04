@@ -35,6 +35,7 @@
 - Additional paste actions for URL entries
   - Prepend
   - Append
+  - Overwrite
 - Advanced UI for managing URL entries
   - CRUD
   - Rearrange with:
@@ -48,3 +49,5 @@
 
 ## R&D
 - Get all URLS of other currently open tabs
+- Scrape a url
+  - get all links found on that page
