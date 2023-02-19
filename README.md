@@ -19,6 +19,29 @@
 - At run time
   - Ignores blank lines in URL entries
   - Strips whitespace from URL entries
+- can prepend URLs to main URL input textarea
+- can append URLs to main URL input textarea
+- Storage Panel
+  - can add first URL Group
+    - can input URLs, group name, and description
+    - group name and description are not required
+    - can paste to, clear, save, or cancel action
+  - can view existing URL groups
+  - can determine available space of local storage in KB
+  - can calculate used storage space in KB and % of max available space
+  - can add new URL Group
+    - can input URLs, group name, and description
+    - group name and description are not required
+    - can paste to, clear, save, or cancel action
+  - can delete one or more existing URL groups
+    - can select/deselect individual URL groups
+    - can select/deselect URL all URL groups
+    - can clear selection
+    - can cancel action
+    - has UI animation so it is clear what is selected
+  - can inspect existing URL groups
+    - can copy URLs to clipboard
+    - can load URLs to main URL input textarea
   
 ## To Do
 - Open in batches
@@ -29,15 +52,10 @@
   - Display results of tests
   - Open all URLs that passed test
   - Open individual URLs that passed test
-- Add/Remove URL groups in local storage
-  - UI for managing data in local storage
-  - Be able to save options along with group
 - Additional paste actions for URL entries
-  - Prepend
-  - Append
   - Overwrite
 - Advanced UI for managing URL entries
-  - CRUD
+  - Update URL entries
   - Rearrange with:
     - Up and down buttons
     - Click and drag
