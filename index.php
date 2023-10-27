@@ -96,12 +96,12 @@
                     <!-- end btn: storage -->
 
                     <!-- btn: settings -->
-                    <button type="button" class="btn btn-secondary"
-                            data-bs-toggle="offcanvas" data-bs-target="#offcanvas-settings"
-                            aria-controls="offcanvas-settings">
-                        <i class="fa-solid fa-gear me-2"></i>
-                        Settings
-                    </button>
+                    <!--<button type="button" class="btn btn-secondary"-->
+                    <!--        data-bs-toggle="offcanvas" data-bs-target="#offcanvas-settings"-->
+                    <!--        aria-controls="offcanvas-settings">-->
+                    <!--    <i class="fa-solid fa-gear me-2"></i>-->
+                    <!--    Settings-->
+                    <!--</button>-->
                     <!-- end btn: settings -->
 
                 </div>
@@ -200,10 +200,10 @@
                 <!-- end open in reverse order -->
 
                 <!-- advanced: testing and batching -->
-                <div class="form-check form-switch mt-3">
+                <!--<div class="form-check form-switch mt-3">
                     <input class="form-check-input" type="checkbox" role="switch" id="input-testValidPath">
                     <label class="form-check-label" for="input-testValidPath">Use advanced options</label>
-                </div>
+                </div>-->
                 <!-- end advanced: testing and batching -->
 
                 <!-- buttons -->
@@ -259,12 +259,12 @@
                         <!-- end btn group: paste actions -->
 
                         <!-- btn: test -->
-                        <button id="btn-testURLs" type="button" class="btn btn-primary d-none"
-                                data-bs-toggle="collapse" data-bs-target="#testBed"
-                                aria-expanded="false" aria-controls="testBed">
-                            <i class="fa-solid fa-circle-down me-2"></i>
-                            Test
-                        </button>
+                        <!--<button id="btn-testURLs" type="button" class="btn btn-primary d-none"-->
+                        <!--        data-bs-toggle="collapse" data-bs-target="#testBed"-->
+                        <!--        aria-expanded="false" aria-controls="testBed">-->
+                        <!--    <i class="fa-solid fa-circle-down me-2"></i>-->
+                        <!--    Test-->
+                        <!--</button>-->
 
                         <!-- btn: open -->
                         <button id="btn-openTabs" type="button" class="btn btn-success">
@@ -292,7 +292,7 @@
     <!-- end Input Panel -->
 
     <!-- Test Bed -->
-    <div class="collapse" id="testBed">
+    <!--<div class="collapse" id="testBed">
     <section class="container mt-3 py-3 bg-secondary rounded">
         <div class="col">
 
@@ -300,7 +300,7 @@
 
         </div>
     </section>
-    </div>
+    </div>-->
     <!-- end Test Bed -->
 
 </main>
@@ -468,12 +468,12 @@
                                                         <!-- end tab: add url group -->
 
                                                         <!-- tab: edit url group -->
-                                                        <li class="nav-item" role="presentation">
-                                                            <button class="nav-link" id="tab-editUrlGroup" data-bs-toggle="tab" data-bs-target="#pane-editUrlGroup" type="button" role="tab" aria-controls="pane-editUrlGroup" aria-selected="false">
-                                                                <i class="fa-solid fa-pen-to-square me-2"></i>
-                                                                Edit
-                                                            </button>
-                                                        </li>
+                                                        <!--<li class="nav-item" role="presentation">-->
+                                                        <!--    <button class="nav-link" id="tab-editUrlGroup" data-bs-toggle="tab" data-bs-target="#pane-editUrlGroup" type="button" role="tab" aria-controls="pane-editUrlGroup" aria-selected="false">-->
+                                                        <!--        <i class="fa-solid fa-pen-to-square me-2"></i>-->
+                                                        <!--        Edit-->
+                                                        <!--    </button>-->
+                                                        <!--</li>-->
                                                         <!-- end tab: edit url group -->
 
                                                         <!-- tab: delete url group(s) -->
@@ -576,9 +576,9 @@
 
                                                         <!-------------------------->
                                                         <!-- pane: edit url group -->
-                                                        <div class="tab-pane fade" id="pane-editUrlGroup" role="tabpanel" aria-labelledby="tab-editUrlGroup" tabindex="0">
-                                                            <p class="lead text-center">This feature is currently under development.</p>
-                                                        </div>
+                                                        <!--<div class="tab-pane fade" id="pane-editUrlGroup" role="tabpanel" aria-labelledby="tab-editUrlGroup" tabindex="0">-->
+                                                        <!--    <p class="lead text-center">This feature is currently under development.</p>-->
+                                                        <!--</div>-->
                                                         <!-- end pane: edit url group -->
                                                         <!------------------------------>
 
@@ -714,41 +714,41 @@
 
 
 <!-- Off Canvas: settings -->
-<aside>
-
-    <div class="offcanvas offcanvas-top offcanvas-fullscreen text-bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvas-settings" aria-labelledby="offcanvas-settings">
-
-        <div class="container">
-
-            <!-- offcanvas - settings: title bar -->
-            <div class="row">
-                <div class="col">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-                            <i class="fa-solid fa-gear me-2"></i>
-                            Settings
-                        </h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                                data-bs-toggle="tooltip" data-bs-title="Press 'esc' to close this panel"
-                                aria-label="Close"></button>
-                    </div>
-                </div>
-            </div>
-            <!-- end offcanvas - settings: title bar -->
-
-            <!-- offcanvas - settings: body -->
-            <div class="row">
-                <div class="col">
-                    <div class="offcanvas-body" id="offcanvas-body-settings"></div>
-                </div>
-            </div>
-            <!-- end offcanvas - settings: body -->
-
-        </div>
-
-    </div>
-
-</aside>
+<!--<aside>-->
+<!---->
+<!--    <div class="offcanvas offcanvas-top offcanvas-fullscreen text-bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvas-settings" aria-labelledby="offcanvas-settings">-->
+<!---->
+<!--        <div class="container">-->
+<!---->
+                <!-- offcanvas - settings: title bar -->
+<!--            <div class="row">-->
+<!--                <div class="col">-->
+<!--                    <div class="offcanvas-header">-->
+<!--                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">-->
+<!--                            <i class="fa-solid fa-gear me-2"></i>-->
+<!--                            Settings-->
+<!--                        </h5>-->
+<!--                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"-->
+<!--                                data-bs-toggle="tooltip" data-bs-title="Press 'esc' to close this panel"-->
+<!--                                aria-label="Close"></button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+                <!-- end offcanvas - settings: title bar -->
+<!---->
+                <!-- offcanvas - settings: body -->
+<!--            <div class="row">-->
+<!--                <div class="col">-->
+<!--                    <div class="offcanvas-body" id="offcanvas-body-settings"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+                <!-- end offcanvas - settings: body -->
+<!---->
+<!--        </div>-->
+<!---->
+<!--    </div>-->
+<!---->
+<!--</aside>-->
 <!-- end Off Canvas: settings -->
 
 
