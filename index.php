@@ -242,15 +242,15 @@
                                 </li>
                                 <!-- end paste: append -->
 
-                                <li><hr class="dropdown-divider"></li>
+                                <!--<li><hr class="dropdown-divider"></li>-->
 
                                 <!-- paste: upload -->
-                                <li>
+                                <!--<li>
                                     <button class="dropdown-item" id="btn-paste-upload">
                                         <i class="fa-solid fa-file-arrow-up me-2"></i>
                                         Upload
                                     </button>
-                                </li>
+                                </li>-->
                                 <!-- end paste: upload -->
 
                             </ul>
