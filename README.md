@@ -1,48 +1,82 @@
-# multi-tab-opener
+# Multi Tab Opener
 
-## Features
-- Copy/Paste or type entries into a text area
-  - Manually
-  - Or with Paste button
-- Open multiple tabs with the press of button
-  - Open in reverse order
-  - Replace the multi-tab-opener itself with the first entry
-- Prepend entries with "", "https://", or "http://"
-- Optional timed delay for opening tabs
-  - Toggle on or off
-  - Change delay value with:
-    - Number input field
-    - Slider
-  - Dismissable warning for low delay values
-    - Also a button to automatically fix low delay values
-- Clear entries
-- At run time
-  - Ignores blank lines in URL entries
-  - Strips whitespace from URL entries
-- can prepend URLs to main URL input textarea
-- can append URLs to main URL input textarea
-- Storage Panel
-  - can add first URL Group
-    - can input URLs, group name, and description
-    - group name and description are not required
-    - can paste to, clear, save, or cancel action
-  - can view existing URL groups
-  - can determine available space of local storage in KB
-  - can calculate used storage space in KB and % of max available space
-  - can add new URL Group
-    - can input URLs, group name, and description
-    - group name and description are not required
-    - can paste to, clear, save, or cancel action
-  - can delete one or more existing URL groups
-    - can select/deselect individual URL groups
-    - can select/deselect URL all URL groups
-    - can clear selection
-    - can cancel action
-    - has UI animation so it is clear what is selected
-  - can inspect existing URL groups
-    - can copy URLs to clipboard
-    - can load URLs to main URL input textarea
-  
+![Static Badge](https://img.shields.io/badge/version-2-blue)
+
+Time released links with options and storage. It's like bookmarks on steroids.
+
+Do you sit in an office opening links all day? Do you find yourself opening the same handful of links over and over? Then you probably just need a browser bookmarks folder.
+
+But do you find yourself:
+
+-   interacting with people and then having to open a long list of links, one by one?
+-   having to open up the same long list of links every so often?
+-   wanting to check if a group of web pages are reachable?
+-   and you want to do that without throttling your browser?
+
+Unlike bookmarks, with the `Multi Tab Opener`you can control how fast your list of links will open. Instead of shocking your bandwidth with opening 10, 20, 30, or more URLS all at once- the Multi Tab Opener will slowly open each link one at a time. You can control how fast or slow each link will be opened in a new tab. You can also save and edit lists of links to your browser's local storage.
+
+## Live Demo
+[https://danaildichev.net/portfolio/tools-apps/multi-tab-opener](https://danaildichev.net/portfolio/tools-apps/multi-tab-opener)
+
+## Install
+
+ - Clone this repo
+ - Open `index.html`in a browser
+
+## Usage
+
+### Main screen
+
+- Copy/paste a list of links into the URL textarea. One on each line.
+- Press the 'Open' and then each link will open in a new tab.
+
+### Main Screen Options
+
+1. Millisecond delay
+	- how long `MTO` will wait before opening the next link in the list
+
+2. Protocol
+	- Specify if you want the `MTO` to use http:// or https://
+	- This setting does not overwrite what's in the URL textarea (yet)
+
+3. Replace this tab with the first entry
+	- The tab that the `MTO` is open in will replace itself with the first entry from the URL textarea
+
+4. Open in reverse order
+	- Opens URL entries in reverse order
+
+5. Paste
+	- Pastes whatever is in your clipboard into the URL textarea
+	- There is a dropdown on the Paste button for appending or prepending clipboard contents to whatever is currently in the URL textarea
+
+6. Clear
+	- Removes any text from the URL textarea
+
+### Storage
+
+Uses the browser's local storage. If there are no URL lists saved, there will be an 'Add' button which brings up a form to save a URL list and give it a group name and description.
+
+When there are 1 or more saved URL lists in storage you will be able to see:
+
+1. The Actions & Stats section
+2. Each saved URL list.
+
+The Actions & Stats section will tell you how much of your local storage is being used- in KB and as a percentage of the total amount of storage your browser permits a domain to have. You can also add or remove URL lists. The `MTO` does not have the ability to edit a URL list yet. You can delete and recreate a list, or go into your browser's local storage and edit the JSON.
+
+For each saved URL group you can copy the list, load the list in the textarea of the main screen, or open each link individually.
+
+## API
+
+The `MTO` is not intended to expose any functions or data.
+
+## Issues
+
+Open an issue or hit me up.
+
+## Contributing
+
+PRs accepted.
+
 ## To Do
 - Open in batches
   - Be able to open/close a particular batch from the MTO
@@ -61,11 +95,11 @@
     - Click and drag
 - Add UI for hints/explanations
 - Be able to save your own default options
+- Be able to save a list from the main screen
 - Be able to import from file
   - txt
   - json
 
-## R&D
-- Get all URLS of other currently open tabs
-- Scrape a url
-  - get all links found on that page
+## License
+
+GPL-3.0
