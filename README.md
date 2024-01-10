@@ -4,16 +4,7 @@
 
 Time released links with options and storage. It's like bookmarks on steroids.
 
-Do you sit in an office opening links all day? Do you find yourself opening the same handful of links over and over? Then you probably just need a browser bookmarks folder.
-
-But do you find yourself:
-
--   interacting with people and then having to open a long list of links, one by one?
--   having to open up the same long list of links every so often?
--   wanting to check if a group of web pages are reachable?
--   and you want to do that without throttling your browser?
-
-Unlike bookmarks, with the `Multi Tab Opener`you can control how fast your list of links will open. Instead of shocking your bandwidth with opening 10, 20, 30, or more URLS all at once- the Multi Tab Opener will slowly open each link one at a time. You can control how fast or slow each link will be opened in a new tab. You can also save and edit lists of links to your browser's local storage.
+Unlike bookmarks, with the `Multi Tab Opener`you can control how fast your list of links will open. Instead of shocking your bandwidth with opening 10, 20, 30, or more URLS all at once- the Multi Tab Opener will slowly open each link one at a time in a new tab. You can also save and edit lists of links to your browser's local storage.
 
 ## Table of Contents
 
