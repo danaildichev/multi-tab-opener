@@ -15,6 +15,20 @@ But do you find yourself:
 
 Unlike bookmarks, with the `Multi Tab Opener`you can control how fast your list of links will open. Instead of shocking your bandwidth with opening 10, 20, 30, or more URLS all at once- the Multi Tab Opener will slowly open each link one at a time. You can control how fast or slow each link will be opened in a new tab. You can also save and edit lists of links to your browser's local storage.
 
+## Table of Contents
+
+- [Live Demo](#live-demo)
+- [Install](#install)
+- [Usage](#usage)
+	- [Main Screen](#main-screen)
+	- [Main Screen Options](#main-screen-options)
+	- [Storage](#storage)
+- [API](#api)
+- [Issues](#issues)
+- [Contributing](#contributing)
+- [To Do](#to-do)
+- [License](#license)
+
 ## Live Demo
 [https://danaildichev.net/portfolio/tools-apps/multi-tab-opener](https://danaildichev.net/portfolio/tools-apps/multi-tab-opener)
 
